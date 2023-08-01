@@ -1,0 +1,25 @@
+.MenuItem {
+  display: grid;
+  width: 275px;
+  align-items: center;
+  justify-content: center;
+}
+
+.MenuItem__avatar img {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 20%;
+}
+
+.MenuItem__name h1 {
+  text-transform: uppercase;
+}
+
+.MenuItem__name ul {
+  padding-inline-start: 0;
+  color: #777;
+}
+
+.MenuItem__name li {
+  list-style-type: none;
+}
